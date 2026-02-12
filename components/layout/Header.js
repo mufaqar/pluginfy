@@ -19,7 +19,7 @@ export default function Header({ scroll, headercls }) {
                                     <nav className="menu-nav">
                                         <div className="logo">
                                             <Link href="/">
-                                                <img src={`/assets/img/logo/${headercls ? "w_logo" : "logo"}.png`} alt="Logo" />
+                                                <img src="/assets/img/logo/logo.png" alt="Logo" />
                                             </Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
@@ -101,7 +101,7 @@ export default function Header({ scroll, headercls }) {
                                                                 </svg>
                                                             </div>
                                                             <div className="content">
-                                                                <Link href="/mailto:company@gmail.com">company@gmail.com</Link>
+                                                                <Link href="/mailto:hello@pluginfy.com">hello@pluginfy.com</Link>
                                                             </div>
                                                         </li>
                                                         <li>
@@ -111,7 +111,7 @@ export default function Header({ scroll, headercls }) {
                                                                 </svg>
                                                             </div>
                                                             <div className="content">
-                                                                <span>Ranelagh Place, Liverpool, L3 5UL, England</span>
+                                                                <span>307 Madina Heights, Lahore, Pakistan</span>
                                                             </div>
                                                         </li>
                                                         <li>

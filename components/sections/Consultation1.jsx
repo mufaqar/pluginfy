@@ -10,9 +10,9 @@ export default function Consultation1() {
                                 <div className="section-title mb-25">
                                     <img src="/assets/img/icon/consultation_icon01.png" alt="" />
                                     <span className="sub-title">95% Accuracy</span>
-                                    <h2 className="title">Worldwide Best Digital Marketing Agency</h2>
+                                    <h2 className="title">Get In Touch</h2>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+                                <p>We’re here to help! If you have any questions or would like to discuss how our SEO and digital marketing services can benefit your business,</p>
                                 <div className="consultation-list">
                                     <ul className="list-wrap">
                                         <li>

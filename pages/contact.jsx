@@ -39,7 +39,7 @@ export default function Contact() {
                                         </form>
                                     </div>
                                     <div id="contact-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan%20Rafael%2C%20California%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                        <iframe src="https://maps.app.goo.gl/KDSprsKvi5o7h3Gf9" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                     </div>
                                     <div className="inner-contact-info">
                                         <ul className="list-wrap">
@@ -50,7 +50,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h6 className="title">Address</h6>
-                                                        <p>UN82 Dhanmondi Dhaka - 1207</p>
+                                                        <p>307 Madina Heights, Lahore,<br /> Pakistan</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -61,7 +61,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h6 className="title">Email</h6>
-                                                        <Link href="mailto:your@email.com">your@email.com</Link>
+                                                        <Link href="mailto:hello@pluginfy.com">hello@pluginfy.com</Link>
                                                     </div>
                                                 </div>
                                             </li>
@@ -72,7 +72,7 @@ export default function Contact() {
                                                     </div>
                                                     <div className="content">
                                                         <h6 className="title">Phone</h6>
-                                                        <Link href="tel:0123456789">+12548789300</Link>
+                                                        <Link href="tel:+923004801494">+92-300-4801494</Link>
                                                     </div>
                                                 </div>
                                             </li>

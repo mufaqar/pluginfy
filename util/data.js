@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        title: "Scientists speculate that ours might not be held",
+        title: "The Ultimate Remote Developer Setup: Top Tools for Communication and Productivity",
         img: "blog01.jpg",
         category: "Gaming",
         author: "miranda h.",
@@ -9,7 +9,7 @@ const data = [
     },
     {
         id: 2,
-        title: "The Multiverse is the collection of alternate universes",
+        title: "The Rise of AI-Assisted Coding: GitHub Copilot vs. Amazon CodeWhisperer vs. Tabnine",
         img: "blog02.jpg",
         category: "Tech",
         author: "miranda h.",
@@ -17,7 +17,7 @@ const data = [
     },
     {
         id: 3,
-        title: "That share a universal hierarchy a large variety of these",
+        title: "How to Choose the Right Database for Your Project",
         img: "blog03.jpg",
         category: "Movie",
         author: "miranda h.",
@@ -25,7 +25,7 @@ const data = [
     },
     {
         id: 4,
-        title: "Universes were originated from another due to a major",
+        title: "From Idea to MVP: Our 6-Step Process for Launching a Successful Mobile App",
         img: "blog04.jpg",
         category: "Sports",
         author: "miranda h.",
@@ -33,7 +33,7 @@ const data = [
     },
     {
         id: 5,
-        title: "A hypothetical collection of potentially diverse",
+        title: "Beyond Code: The Real Value a Full-Cycle Development Team Brings to Your Project",
         img: "blog05.jpg",
         category: "Gaming",
         author: "miranda h.",
@@ -41,7 +41,7 @@ const data = [
     },
     {
         id: 6,
-        title: "Stanford physicists Andrei Linde In a new study",
+        title: "5 Hidden Costs of Choosing the Wrong Software Development Partner",
         img: "blog06.jpg",
         category: "Tech",
         author: "miranda h.",

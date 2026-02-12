@@ -15,15 +15,15 @@ export default function Footer1() {
                                         </div>
                                         <div className="footer-social">
                                             <ul className="list-wrap">
-                                                <li><Link href="/#"><i className="fab fa-facebook-f" /></Link></li>
-                                                <li className="active"><Link href="/#"><i className="fab fa-twitter" /></Link></li>
-                                                <li><Link href="/#"><i className="fab fa-google-plus-g" /></Link></li>
-                                                <li><Link href="/#"><i className="fab fa-linkedin-in" /></Link></li>
+                                                <li><Link href="https://www.facebook.com/pluginfy"><i className="fab fa-facebook-f" /></Link></li>
+                                                <li className="active"><Link href="https://twitter.com/pluginfy"><i className="fab fa-twitter" /></Link></li>
+                                                <li><Link href="https://www.youtube.com/channel/UCoW1Ip3gM6YjBtluhSCJpBA"><i className="fab fa-youtube" /></Link></li>
+                                                <li><Link href="https://www.linkedin.com/company/pluginfy-technologies"><i className="fab fa-linkedin-in" /></Link></li>
                                             </ul>
                                         </div>
                                         <div className="footer-contact">
                                             <span>For Support</span>
-                                            <h2 className="title"><Link href="/tel:0123456789">0123 - 567 - 7650</Link></h2>
+                                            <h2 className="title"><Link href="/tel:0123456789">+92-300-4801494</Link></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -58,9 +58,9 @@ export default function Footer1() {
                                         <h4 className="fw-title">About Store</h4>
                                         <div className="footer-about">
                                             <ul className="list-wrap">
-                                                <li><img src="/assets/img/icon/phone_icon.svg" alt="" /><Link href="/tel:0123456789">8 (495) 989—20—11</Link></li>
-                                                <li><img src="/assets/img/icon/mail_icon.svg" alt="" /><Link href="/mailto:company@gmail.com">company@gmail.com</Link></li>
-                                                <li><img src="/assets/img/icon/loction_icon.svg" alt="" /><span>Ranelagh Place, Liverpool, L3 5UL, England</span></li>
+                                                <li><img src="/assets/img/icon/phone_icon.svg" alt="" /><Link href="tel:923004801494">+92-300-4801494</Link></li>
+                                                <li><img src="/assets/img/icon/mail_icon.svg" alt="" /><Link href="mailto:hello@pluginfy.com">hello@pluginfy.com</Link></li>
+                                                <li><img src="/assets/img/icon/loction_icon.svg" alt="" /><span>307 Madina Heights, Lahore, Pakistan</span></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ export default function Footer1() {
                             </div>
                         </div>
                     </div>
-                    <div className="footer-bottom">
+                    {/* <div className="footer-bottom">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-6">
@@ -83,7 +83,7 @@ export default function Footer1() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </footer>
 

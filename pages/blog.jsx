@@ -27,7 +27,7 @@ export default function Blog() {
                                                             <li><i className="fal fa-clock" />5 Min</li>
                                                         </ul>
                                                     </div>
-                                                    <h4 className="title"><Link href="/blog-details">Skello launches electronic signature</Link></h4>
+                                                    <h4 className="title"><Link href="/blog-details"></Link></h4>
                                                 </div>
                                             </div>
                                             <div className="rc-post-item">

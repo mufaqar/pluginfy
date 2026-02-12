@@ -12,8 +12,8 @@ export default function Services1() {
                                     <img src="/assets/img/icon/services_icon01.png" alt="" />
                                 </div>
                                 <div className="services-content">
-                                    <h4 className="title"><Link href="/services-details">UIUX Design</Link></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <h4 className="title"><Link href="/services-details">Plugin & Integration Development</Link></h4>
+                                    <p>Seamless plugins, integrations, and custom tools to enhance your platform’s capabilities.</p>
                                 </div>
                             </div>
                         </div>
@@ -23,8 +23,8 @@ export default function Services1() {
                                     <img src="/assets/img/icon/services_icon02.png" alt="" />
                                 </div>
                                 <div className="services-content">
-                                    <h4 className="title"><Link href="/services-details">Product Design</Link></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <h4 className="title"><Link href="/services-details">Web Development & Maintenance</Link></h4>
+                                    <p>Beautiful, responsive, and reliable websites built for performance and scalability.</p>
                                 </div>
                             </div>
                         </div>
@@ -34,8 +34,8 @@ export default function Services1() {
                                     <img src="/assets/img/icon/services_icon03.png" alt="" />
                                 </div>
                                 <div className="services-content">
-                                    <h4 className="title"><Link href="/services-details">Website Design</Link></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <h4 className="title"><Link href="/services-details">Software Development</Link></h4>
+                                    <p>Custom-built software solutions designed to streamline operations and boost efficiency.</p>
                                 </div>
                             </div>
                         </div>
@@ -45,8 +45,8 @@ export default function Services1() {
                                     <img src="/assets/img/icon/services_icon04.png" alt="" />
                                 </div>
                                 <div className="services-content">
-                                    <h4 className="title"><Link href="/services-details">Branding Design</Link></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <h4 className="title"><Link href="/services-details">AI Development & Automation</Link></h4>
+                                    <p>Transform ideas into intelligent, automated business solutions that drive growth.</p>
                                 </div>
                             </div>
                         </div>

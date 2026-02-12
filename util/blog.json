@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Scientists speculate that ours might not be held",
+        "title": "The Ultimate Remote Developer Setup: Top Tools for Communication and Productivity",
+         "des": "The shift to remote work represents one of the most significant transformations in modern software development. What began as a temporary necessity has evolved into a fundamental restructuring of how we build software and collaborate as teams. However, many developers and organizations are discovering that working remotely without a deliberate, well-designed setup can lead to....",
         "img": "inner_blog_img01.jpg",
         "category": "Gaming",
         "author": "miranda h.",
@@ -9,7 +10,8 @@
     },
     {
         "id": 2,
-        "title": "The Multiverse is the collection of alternate universes",
+        "title": "The Rise of AI-Assisted Coding: GitHub Copilot vs. Amazon CodeWhisperer vs. Tabnine",
+        "des": "The initial wave was about code completion. The current battle is about integrated AI chat. This is a critical differentiator. GitHub Copilot Chat: Deeply integrated into the IDE (as Copilot X). It’s context-aware of your entire codebase, not just the current file. You can ask it to explain a complex function, generate tests for a specific class, or get a summary of all recent changes.....",
         "img": "inner_blog_img02.jpg",
         "category": "Tech",
         "author": "miranda h.",
@@ -17,7 +19,8 @@
     },
     {
         "id": 3,
-        "title": "That share a universal hierarchy a large variety of these",
+        "title": "How to Choose the Right Database for Your Project",
+         "des": "Selecting the right database is arguably the most consequential technical decision in application development—comparable to choosing the foundation for a skyscraper. This single choice can either enable unprecedented scalability and performance or become a source of constant technical debt, costly migrations, and performance nightmares...... ",
         "img": "inner_blog_img03.jpg",
         "category": "Movie",
         "author": "miranda h.",
@@ -25,7 +28,8 @@
     },
     {
         "id": 4,
-        "title": "Universes were originated from another due to a major",
+        "title": "From Idea to MVP: Our 6-Step Process for Launching a Successful Mobile App",
+         "des": "Before prioritizing features, the most critical task is to identify your Riskiest Assumption. This is the single belief about your business that, if proven false, would cause the entire idea to fail..... ",
         "img": "inner_blog_img01.jpg",
         "category": "Sports",
         "author": "miranda h.",
@@ -33,7 +37,8 @@
     },
     {
         "id": 5,
-        "title": "A hypothetical collection of potentially diverse",
+        "title": "Beyond Code: The Real Value a Full-Cycle Development Team Brings to Your Project",
+         "des": "In today’s competitive landscape, building software is about much more than just writing lines of code. It’s about solving business problems, seizing opportunities, and creating valuable user experiences. This is where a full-cycle development team separates itself from the rest. They don’t just build what you ask for; they partner with you to ensure what you build is successful...... ",
         "img": "inner_blog_img02.jpg",
         "category": "Gaming",
         "author": "miranda h.",
@@ -41,7 +46,8 @@
     },
     {
         "id": 6,
-        "title": "Stanford physicists Andrei Linde In a new study",
+        "title": "5 Hidden Costs of Choosing the Wrong Software Development Partner",
+         "des": " Selecting a software development partner is one of the most critical decisions your business can make. After all, your software often acts as your primary product, your key operational tool, or your main customer touchpoint. While you might feel tempted to choose a partner based on the lowest upfront quote, this short-sighted approach can lead to disaster......",
         "img": "inner_blog_img03.jpg",
         "category": "Tech",
         "author": "miranda h.",
@@ -50,6 +56,7 @@
     {
         "id": 7,
         "title": "Accessible to telescopes, is about 90 billion years",
+         "des": " ",
         "img": "inner_blog_img01.jpg",
         "category": "Movie",
         "author": "miranda h.",
@@ -58,6 +65,7 @@
     {
         "id": 8,
         "title": "Observable universes each of which would comprise",
+         "des": " ",
         "img": "inner_blog_img02.jpg",
         "category": "Sports",
         "author": "miranda h.",

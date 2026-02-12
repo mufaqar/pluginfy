@@ -113,10 +113,10 @@ export default function AboutUs() {
                             <div className="col-lg-6">
                                 <div className="counter-content-three">
                                     <div className="section-title title-style-two mb-30">
-                                        <h2 className="title">Content Has to Be More That Just Brilliant</h2>
+                                        <h2 className="title">Your Partner for Software Innovation</h2>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                                        scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                                    <p>We are a rapidly expanding firm in the software sector. Our partners’ difficult websites, 
+                                        mobile apps, and modules or plugins allow us to step outside of our comfort zone and reconsider our strategy and methods for software design, development, and delivery.</p>
                                     <img src="/assets/img/images/sine.png" alt="" />
                                     <div className="content-bottom">
                                         <h4 className="title-two">Davis Levin</h4>
@@ -134,8 +134,8 @@ export default function AboutUs() {
                         <div className="row justify-content-center">
                             <div className="col-xl-7">
                                 <div className="section-title title-style-two text-center mb-70">
-                                    <h2 className="title">Meet The Squad</h2>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores</p>
+                                    <h2 className="title">Our Leadership Team</h2>
+                                    <p>We have experienced Tech Professionals that spent their lives in crafting custom Softwares.</p>
                                 </div>
                             </div>
                         </div>
@@ -247,10 +247,9 @@ export default function AboutUs() {
                                 <div className="consultation-content">
                                     <div className="section-title mb-25">
                                         <span className="sub-title">95% Accuracy</span>
-                                        <h2 className="title">Worldwide Best Digital Marketing Agency</h2>
+                                        <h2 className="title">Get In Touch</h2>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                                        scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                                    <p>We’re here to help! If you have any questions or would like to discuss how our SEO and digital marketing services can benefit your business,</p>
                                     <div className="consultation-list">
                                         <ul className="list-wrap">
                                             <li>
@@ -318,8 +317,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon01.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Advertising</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Plugin & Integration Development</Link></h2>
+                                            <p>Seamless plugins, integrations, and custom tools to enhance your platform’s capabilities.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +329,7 @@ export default function AboutUs() {
                                         </div>
                                         <div className="services-content-four">
                                             <h2 className="title"><Link href="/services-details">Development</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <p>Enable customers to access applications while on the go and provide value right at their fingertips.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -340,8 +339,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon03.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Branding</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Software Development</Link></h2>
+                                            <p>Custom-built software solutions designed to streamline operations and boost efficiency.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,8 +350,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon04.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Product Design</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">E-Commerce Platform Customization</Link></h2>
+                                            <p>Tailor-made online stores that convert visitors into loyal customers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -362,8 +361,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon05.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Software</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">UI/UX Design</Link></h2>
+                                            <p>Engaging, user-friendly designs that combine aesthetics, performance, and accessibility.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -373,8 +372,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon06.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Marketing</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Web Development & Maintenance</Link></h2>
+                                            <p>Beautiful, responsive, and reliable websites built for performance and scalability.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -384,8 +383,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon07.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Cinematography</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">AI Development & Automation</Link></h2>
+                                            <p>Transform ideas into intelligent, automated business solutions that drive growth.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -395,8 +394,8 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon08.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Strategy Services</Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title"><Link href="/services-details">Data Analytics</Link></h2>
+                                            <p>Get outcomes that are significant and provide our clients the most value and crucial business advantages.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -418,9 +417,9 @@ export default function AboutUs() {
                                 <div className="success-content">
                                     <div className="section-title title-style-two mb-30">
                                         <span className="sub-title">Company Success</span>
-                                        <h2 className="title">A Company’s Success is An Ongoing Stream of Happiness</h2>
+                                        <h2 className="title">Improve and Innovate with the Tech Trends</h2>
                                     </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <p>We have a special set of skills that we continuously develop and innovate in accordance with technological trends as a cohesive team throughout the whole project.</p>
                                     <div className="success-list">
                                         <ul className="list-wrap">
                                             <li>
@@ -571,9 +570,9 @@ export default function AboutUs() {
                                                     <img src="/assets/img/images/testimonial_avatar01.png" alt="" />
                                                 </div>
                                                 <div className="testimonial-content-three">
-                                                    <h4 className="title">James Botosh</h4>
-                                                    <span>Product Designer</span>
-                                                    <p>“We seek to get involved early in the design phase so that we can manage the project more efficiently, provide effective building solutions”</p>
+                                                   <h4 className="title">Loyalista </h4>
+                                                    <span>CEO of Company</span>
+                                               <p>“ Very well thought out and articulate communication. Clear milestones, deadlines and fast work. Patience. Infinite patience. No shortcuts. Even if the client is being careless. The best part...always solving problems with great original ideas!.“</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -583,9 +582,9 @@ export default function AboutUs() {
                                                     <img src="/assets/img/images/testimonial_avatar02.png" alt="" />
                                                 </div>
                                                 <div className="testimonial-content-three">
-                                                    <h4 className="title">James Botosh</h4>
-                                                    <span>Product Designer</span>
-                                                    <p>“We seek to get involved early in the design phase so that we can manage the project more efficiently, provide effective building solutions”</p>
+                                                    <h4 className="title">Dedicate-Kitechen</h4>
+                                                    <span>Developer</span>
+                                                 <p>“ We had some fun at work together after defining a clear course, and I believe it kept us encouraged.“</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -595,9 +594,9 @@ export default function AboutUs() {
                                                     <img src="/assets/img/images/testimonial_avatar03.png" alt="" />
                                                 </div>
                                                 <div className="testimonial-content-three">
-                                                    <h4 className="title">James Botosh</h4>
-                                                    <span>Product Designer</span>
-                                                    <p>“We seek to get involved early in the design phase so that we can manage the project more efficiently, provide effective building solutions”</p>
+                                                     <h4 className="title">Members-one</h4>
+                                                    <span>Director of Company</span>
+                                                 <p>The developer for Pluginfy Technologies operated largely autonomously. The web application functions as intended, and the code is written in accordance with best practices. With a team that was extremely motivated, they took the project seriously. “</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -607,9 +606,9 @@ export default function AboutUs() {
                                                     <img src="/assets/img/images/testimonial_avatar01.png" alt="" />
                                                 </div>
                                                 <div className="testimonial-content-three">
-                                                    <h4 className="title">James Botosh</h4>
-                                                    <span>Product Designer</span>
-                                                    <p>“We seek to get involved early in the design phase so that we can manage the project more efficiently, provide effective building solutions”</p>
+                                                    <h4 className="title">SWAPZ</h4>
+                                                    <span>Project Manager</span>
+                                                  <p>The team at Pluginfy Technologies assisted the client in scaling up. They work diligently and are adaptable and effective. They could be more straightforward, but they have a highly skilled and adaptable crew.“</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>

@@ -10,7 +10,7 @@ export default function Blog1() {
                             <div className="section-title text-center mb-50">
                                 <span className="sub-title">My Blog</span>
                                 <h2 className="title">News  Updates</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                <p>Pluginfy Technologies is a fast‑growing software development company that transforms ideas into powerful, scalable digital solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ export default function Blog1() {
                                 </div>
                                 <div className="blog-post-content">
                                     <Link href="/blog" className="tag">Branding</Link>
-                                    <h2 className="title"><Link href="/blog-details">How To Create JavaScript Vanilla Gantt Chart: Adding</Link></h2>
+                                    <h2 className="title"><Link href="/blog-details">The Ultimate Remote Developer Setup: Top Tools for Communication and Productivity</Link></h2>
                                     <div className="blog-meta">
                                         <ul className="list-wrap">
                                             <li className="avatar-img">
@@ -41,7 +41,7 @@ export default function Blog1() {
                                 </div>
                                 <div className="blog-post-content">
                                     <Link href="/blog" className="tag">Branding</Link>
-                                    <h2 className="title"><Link href="/blog-details">How To Create JavaScript Vanilla Gantt Chart: Adding</Link></h2>
+                                    <h2 className="title"><Link href="/blog-details">The Rise of AI-Assisted Coding: GitHub Copilot vs. Amazon CodeWhisperer vs. Tabnine</Link></h2>
                                     <div className="blog-meta">
                                         <ul className="list-wrap">
                                             <li className="avatar-img">
@@ -60,7 +60,7 @@ export default function Blog1() {
                                 </div>
                                 <div className="blog-post-content">
                                     <Link href="/blog" className="tag">Branding</Link>
-                                    <h2 className="title"><Link href="/blog-details">How To Create JavaScript Vanilla Gantt Chart: Adding</Link></h2>
+                                    <h2 className="title"><Link href="/blog-details">From Idea to MVP: Our 6-Step Process for Launching a Successful Mobile App</Link></h2>
                                     <div className="blog-meta">
                                         <ul className="list-wrap">
                                             <li className="avatar-img">

@@ -16,17 +16,17 @@ export default function About1() {
                                 <div className="about-content">
                                     <div className="section-title mb-25">
                                         <span className="sub-title">About Company</span>
-                                        <h2 className="title">A Full Service Design and Branding Agency</h2>
+                                        <h2 className="title">Your Partner for Software Innovation</h2>
                                     </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <p>We are a rapidly expanding firm in the software sector. Our partners’ difficult websites, mobile apps, and modules or plugins allow us to step outside of our comfort zone and reconsider our strategy and methods for software design, development, and delivery.</p>
                                     <ul className="list-wrap">
                                         <li>
                                             <div className="icon">
                                                 <img src="/assets/img/icon/about_icon01.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Concept Creation</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Product Design</h4>
+                                                <p>Our product design services enables users to instantly and enthusiastically adopt a company product.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -34,8 +34,8 @@ export default function About1() {
                                                 <img src="/assets/img/icon/about_icon02.png" alt="" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Sketch Drawing</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                <h4 className="title">Development</h4>
+                                                <p>Enable customers to access applications while on the go and provide value right at their fingertips.</p>
                                             </div>
                                         </li>
                                     </ul>

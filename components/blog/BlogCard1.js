@@ -17,7 +17,7 @@ export default function BlogCard1({ item }) {
                         </ul>
                     </div>
                     <h2 className="title"><Link href={`/blog/${item.id}`}>{item.title}</Link></h2>
-                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                    <p>{item.des}</p>
                     <Link href="/blog-details" className="rade-more-btn">Read More</Link>
                 </div>
             </div>
