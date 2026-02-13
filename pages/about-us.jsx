@@ -119,8 +119,8 @@ export default function AboutUs() {
                                         mobile apps, and modules or plugins allow us to step outside of our comfort zone and reconsider our strategy and methods for software design, development, and delivery.</p>
                                     <img src="/assets/img/images/sine.png" alt="" />
                                     <div className="content-bottom">
-                                        <h4 className="title-two">Davis Levin</h4>
-                                        <span>Director Company</span>
+                                        <h4 className="title-two">Khadim Raath</h4>
+                                        <span>CEO OF COMPANY</span>
                                     </div>
                                 </div>
                             </div>
@@ -143,11 +143,11 @@ export default function AboutUs() {
                             <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team01.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/khadim.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Alena Rosser</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Khadim Raath</Link></h2>
+                                        <span>CEO OF COMPANY</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -162,11 +162,11 @@ export default function AboutUs() {
                             <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team02.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/fida.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Tiana Dokidis</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Fida Raath</Link></h2>
+                                        <span>Co-Founder of company</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -181,11 +181,11 @@ export default function AboutUs() {
                             <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team03.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/talib.png" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Ryan Vetrovs</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Talib Raath</Link></h2>
+                                        <span>Co-Founder of company</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -200,11 +200,11 @@ export default function AboutUs() {
                             <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team04.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/Toheed-Ahmed.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Emerson Saris</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Toheed Ahmed</Link></h2>
+                                        <span>Principal Software Engineer</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -219,11 +219,11 @@ export default function AboutUs() {
                             <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team05.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/Saad-Meer.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Lindsey Schleifer</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Saad Mir</Link></h2>
+                                        <span>Sr. Software Engineer</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
