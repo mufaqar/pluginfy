@@ -4,7 +4,7 @@ export default function Team() {
 
     return (
         <>
-            <Layout breadcrumbTitle="Team Members" footerStyle={2} breadcrumbCls=" breadcrumb-area-two pt-175">
+            <Layout breadcrumbTitle="Our Leadership Team" footerStyle={2} breadcrumbCls=" breadcrumb-area-two pt-175">
                 {/* community-area */}
                 <div className="community-area pt-30">
                     <div className="container">
@@ -14,7 +14,7 @@ export default function Team() {
                                     <img src="/assets/img/images/community_img.png" alt="" />
                                 </div>
                                 <div className="community-content">
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                                    <p>We have experienced Tech Professionals that spent their lives in crafting custom Softwares.</p>
                                 </div>
                             </div>
                         </div>
@@ -28,11 +28,11 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 col-sm-10">
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team01.jpg" alt="" /></Link>
+                                        <img src="/assets/img/team/khadim.jpeg" alt="" />
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Alena Rosser</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title">Khadim Raath</h2>
+                                        <span>CEO OF COMPANY</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -47,11 +47,11 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 col-sm-10">
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team02.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/fida.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Tiana Dokidis</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Fida Raath</Link></h2>
+                                        <span>Co-Founder of company</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -66,11 +66,11 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 col-sm-10">
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team03.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/talib.png" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Ryan Vetrovs</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Talib Raath</Link></h2>
+                                        <span>Co-Founder of company</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -85,11 +85,11 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 col-sm-10">
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team04.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/Saad-Meer.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Emerson Saris</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Saad Mir</Link></h2>
+                                        <span>Sr. Software Engineer</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -104,11 +104,11 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 col-sm-10">
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team05.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/Toheed-Ahmed.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Lindsey Schleifer</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Toheed Ahmed</Link></h2>
+                                        <span>Principal Software Engineer</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -123,11 +123,11 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 col-sm-10">
                                 <div className="team-item">
                                     <div className="team-thumb">
-                                        <Link href="/team-details"><img src="/assets/img/team/inner_team06.jpg" alt="" /></Link>
+                                        <Link href="/team-details"><img src="/assets/img/team/arsalan-rasheed.jpeg" alt="" /></Link>
                                     </div>
                                     <div className="team-content">
-                                        <h2 className="title"><Link href="/team-details">Dulce Dokidis</Link></h2>
-                                        <span>CEO Kawasaki Inc.</span>
+                                        <h2 className="title"><Link href="/team-details">Arsalan Rasheed</Link></h2>
+                                        <span>Full Stack Developer</span>
                                         <div className="team-social">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>

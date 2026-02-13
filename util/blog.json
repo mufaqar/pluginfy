@@ -1,74 +1,139 @@
 [
-    {
-        "id": 1,
-        "title": "The Ultimate Remote Developer Setup: Top Tools for Communication and Productivity",
-         "des": "The shift to remote work represents one of the most significant transformations in modern software development. What began as a temporary necessity has evolved into a fundamental restructuring of how we build software and collaborate as teams. However, many developers and organizations are discovering that working remotely without a deliberate, well-designed setup can lead to....",
-        "img": "inner_blog_img01.jpg",
-        "category": "Gaming",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 2,
-        "title": "The Rise of AI-Assisted Coding: GitHub Copilot vs. Amazon CodeWhisperer vs. Tabnine",
-        "des": "The initial wave was about code completion. The current battle is about integrated AI chat. This is a critical differentiator. GitHub Copilot Chat: Deeply integrated into the IDE (as Copilot X). It’s context-aware of your entire codebase, not just the current file. You can ask it to explain a complex function, generate tests for a specific class, or get a summary of all recent changes.....",
-        "img": "inner_blog_img02.jpg",
-        "category": "Tech",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 3,
-        "title": "How to Choose the Right Database for Your Project",
-         "des": "Selecting the right database is arguably the most consequential technical decision in application development—comparable to choosing the foundation for a skyscraper. This single choice can either enable unprecedented scalability and performance or become a source of constant technical debt, costly migrations, and performance nightmares...... ",
-        "img": "inner_blog_img03.jpg",
-        "category": "Movie",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 4,
-        "title": "From Idea to MVP: Our 6-Step Process for Launching a Successful Mobile App",
-         "des": "Before prioritizing features, the most critical task is to identify your Riskiest Assumption. This is the single belief about your business that, if proven false, would cause the entire idea to fail..... ",
-        "img": "inner_blog_img01.jpg",
-        "category": "Sports",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 5,
-        "title": "Beyond Code: The Real Value a Full-Cycle Development Team Brings to Your Project",
-         "des": "In today’s competitive landscape, building software is about much more than just writing lines of code. It’s about solving business problems, seizing opportunities, and creating valuable user experiences. This is where a full-cycle development team separates itself from the rest. They don’t just build what you ask for; they partner with you to ensure what you build is successful...... ",
-        "img": "inner_blog_img02.jpg",
-        "category": "Gaming",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 6,
-        "title": "5 Hidden Costs of Choosing the Wrong Software Development Partner",
-         "des": " Selecting a software development partner is one of the most critical decisions your business can make. After all, your software often acts as your primary product, your key operational tool, or your main customer touchpoint. While you might feel tempted to choose a partner based on the lowest upfront quote, this short-sighted approach can lead to disaster......",
-        "img": "inner_blog_img03.jpg",
-        "category": "Tech",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 7,
-        "title": "Accessible to telescopes, is about 90 billion years",
-         "des": " ",
-        "img": "inner_blog_img01.jpg",
-        "category": "Movie",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    },
-    {
-        "id": 8,
-        "title": "Observable universes each of which would comprise",
-         "des": " ",
-        "img": "inner_blog_img02.jpg",
-        "category": "Sports",
-        "author": "miranda h.",
-        "date": "25 April 2026"
-    }
+  {
+    "id": 1,
+    "title": "The Ultimate Remote Developer Setup: Top Tools for Communication and Productivity",
+    "des" : "The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating a completely positive first page of search engine results for a specific term....",
+    "author": "John Doe",
+    "date": "Feb 13, 2026",
+    "img": "inner_blog_img01.jpg",
+    "metaTag": "Sector",
+    "readingTime": "5 Min",
+    "description": "Our team crafts stunning, creative web designs tailored to your business needs.",
+    "contentTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "contentBottom": [
+      {
+        "heading": "Pilotage de la performance : vos indicateurs",
+        "paragraphs": [
+          "Un tableau de bord est un outil de gestion et d'évaluation...",
+          "Le pilotage de la performance par Skello est une interface développée spécialement..."
+        ],
+        "list": [
+          "Chiffre d’affaires.",
+          "Masse salariale chargée.",
+          "Ratio de masse salariale chargée / CA.",
+          "Heures travaillées et heures d’absences.",
+          "Heures travaillées par poste."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "name": "Lincoln Culhane",
+        "date": "Feb 13, 2026",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      {
+        "name": "Emerson Septimus",
+        "date": "Feb 13, 2026",
+        "text": "Another sample comment for this blog."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Rise of AI-Assisted Coding: GitHub Copilot vs. Amazon CodeWhisperer vs. Tabnine",
+    "des" : "The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating a completely positive first page of search engine results for a specific term.... ",
+    "author": "Miranda H.",
+    "date": "25 April 2026",
+    "img": "inner_blog_img02.jpg",
+    "metaTag": "Gaming",
+    "readingTime": "6 Min",
+    "description": "The shift to remote work represents one of the most significant transformations in modern software development.",
+    "contentTop": "What began as a temporary necessity has evolved into a fundamental restructuring of how we build software and collaborate as teams. Many developers and organizations are discovering that working remotely without a deliberate setup can lead to inefficiencies.",
+    "contentBottom": [
+      {
+        "heading": "Setting Up Your Remote Workspace",
+        "paragraphs": [
+          "A proper remote workspace is critical for productivity and communication.",
+          "Investing in ergonomic equipment, reliable internet, and collaboration tools ensures developers remain efficient and connected."
+        ],
+        "list": [
+          "Ergonomic desk and chair.",
+          "High-speed internet.",
+          "Communication tools like Slack or Teams.",
+          "Time management software.",
+          "Regular check-ins with team members."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "name": "Alex Johnson",
+        "date": "26 April 2026",
+        "text": "Very insightful blog! Learned a lot about remote setups."
+      },
+      {
+        "name": "Samantha Lee",
+        "date": "26 April 2026",
+        "text": "Great tips for improving home office productivity."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "How to Choose the Right Database for Your Project",
+    "des" : "The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating a completely positive first page of search engine results for a specific term..... ",
+    "author": "Miranda H.",
+    "date": "25 April 2026",
+    "img": "inner_blog_img03.jpg",
+    "metaTag": "Tech",
+    "readingTime": "5 Min",
+    "description": "The initial wave was about code completion. The current battle is about integrated AI chat. GitHub Copilot Chat, Amazon CodeWhisperer, and Tabnine offer different advantages.",
+    "contentTop": "This is a critical differentiator. You can ask AI coding assistants to explain functions, generate tests, or summarize recent changes, improving developer productivity.",
+    "contentBottom": [],
+    "comments": []
+  },
+  {
+    "id": 4,
+    "title": "From Idea to MVP: Our 6-Step Process for Launching a Successful Mobile App",
+    "des" : "The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating a completely positive first page of search engine results for a specific term.....",
+    "author": "Miranda H.",
+    "date": "25 April 2026",
+    "img": "inner_blog_img03.jpg",
+    "metaTag": "Movie",
+    "readingTime": "5 Min",
+    "description": "Selecting the right database is arguably the most consequential technical decision in application development.",
+    "contentTop": "This single choice can either enable unprecedented scalability and performance or become a source of technical debt, costly migrations, and performance issues.",
+    "contentBottom": [],
+    "comments": []
+  },
+  {
+    "id": 5,
+    "title": "Beyond Code: The Real Value a Full-Cycle Development Team Brings to Your Project",
+    "des" : "The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating a completely positive first page of search engine results for a specific term...... ",
+    "author": "Miranda H.",
+    "date": "25 April 2026",
+    "img": "inner_blog_img01.jpg",
+    "metaTag": "Sports",
+    "readingTime": "5 Min",
+    "description": "Before prioritizing features, the most critical task is to identify your Riskiest Assumption.",
+    "contentTop": "This is the single belief about your business that, if proven false, would cause the entire idea to fail.",
+    "contentBottom": [],
+    "comments": []
+  },
+  {
+    "id": 6,
+    "title": "5 Hidden Costs of Choosing the Wrong Software Development Partner",
+    "des" : "The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating a completely positive first page of search engine results for a specific term......",
+    "author": "Miranda H.",
+    "date": "25 April 2026",
+    "img": "inner_blog_img02.jpg",
+    "metaTag": "Gaming",
+    "readingTime": "5 Min",
+    "description": "Building software is about much more than writing code. It's about solving business problems and creating valuable user experiences.",
+    "contentTop": "A full-cycle development team doesn’t just build what you ask for; they ensure your project succeeds.",
+    "contentBottom": [],
+    "comments": []
+  }
+
 ]

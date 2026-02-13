@@ -33,8 +33,8 @@ export default function Slider1() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="slider-content">
-                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
-                                        <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">From idea to product</h2>
+                                        <p data-animation="fadeInUp" data-delay=".4s">We are 10+ professional software engineers with more than 9 years of experience in delivering superior products.</p>
                                         <div className="slider-btn">
                                             <Link href="/contact" className="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span /></Link>
                                             <VideoPopup text="See Live Demo "/>
@@ -54,8 +54,8 @@ export default function Slider1() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="slider-content">
-                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
-                                        <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Smart Digital Solutions for a Connected World</h2>
+                                        <p data-animation="fadeInUp" data-delay=".4s">Plugify helps businesses scale with cutting-edge technology, smart automation, and seamless digital integration. Transform your ideas into powerful online experiences.</p>
                                         <div className="slider-btn">
                                             <a href="/contact" className="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span /></a>
                                             <VideoPopup text="See Live Demo "/>
@@ -75,8 +75,8 @@ export default function Slider1() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="slider-content">
-                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Digital Agency Business Make Big Deal.</h2>
-                                        <p data-animation="fadeInUp" data-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                                        <h2 className="title" data-animation="fadeInUp" data-delay=".2s">Powering Innovation, Connecting the Future</h2>
+                                        <p data-animation="fadeInUp" data-delay=".4s">Plugify is a modern digital platform delivering innovative solutions to power your business growth. We connect technology, strategy, and creativity to build impactful digital experiences.</p>
                                         <div className="slider-btn">
                                             <a href="/contact" className="btn" data-animation="fadeInLeft" data-delay=".6s">Get Started <span /></a>
                                             <VideoPopup text="See Live Demo "/>

@@ -116,7 +116,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Name:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>Khadim Raath</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -125,7 +125,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Email:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>hello@pluginfy.com</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -134,7 +134,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Language:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>English</p>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -147,7 +147,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Phone No:</span>
-                                                                    <p>8 (495) 989—20—11</p>
+                                                                    <p>+92-300-4801494</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -156,7 +156,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Address:</span>
-                                                                    <p>Ranelagh Place, L3 5UL, England</p>
+                                                                    <p>307 Madina Heights, Lahore, Pakistan</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -177,14 +177,14 @@ export default function AboutMe() {
                                             <div className="developer-info-wrap">
                                                 <div className="row">
                                                     <div className="col-md-6">
-                                                        <ul className="list-wrap">
+                                                  <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon01.png" alt="" />
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Name:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>Khadim Raath</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -193,7 +193,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Email:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>hello@pluginfy.com</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -202,20 +202,20 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Language:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>English</p>
                                                                 </div>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                     <div className="col-md-6">
-                                                        <ul className="list-wrap">
+                                                    <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon04.png" alt="" />
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Phone No:</span>
-                                                                    <p>8 (495) 989—20—11</p>
+                                                                    <p>+92-300-4801494</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -224,7 +224,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Address:</span>
-                                                                    <p>Ranelagh Place, L3 5UL, England</p>
+                                                                    <p>307 Madina Heights, Lahore, Pakistan</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -245,14 +245,14 @@ export default function AboutMe() {
                                             <div className="developer-info-wrap">
                                                 <div className="row">
                                                     <div className="col-md-6">
-                                                        <ul className="list-wrap">
+                                                     <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon01.png" alt="" />
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Name:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>Khadim Raath</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -261,7 +261,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Email:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>hello@pluginfy.com</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -270,20 +270,20 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Language:</span>
-                                                                    <p>Jams Robot</p>
+                                                                    <p>English</p>
                                                                 </div>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                     <div className="col-md-6">
-                                                        <ul className="list-wrap">
+                                                      <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon04.png" alt="" />
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Phone No:</span>
-                                                                    <p>8 (495) 989—20—11</p>
+                                                                    <p>+92-300-4801494</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -292,7 +292,7 @@ export default function AboutMe() {
                                                                 </div>
                                                                 <div className="content">
                                                                     <span>Address:</span>
-                                                                    <p>Ranelagh Place, L3 5UL, England</p>
+                                                                    <p>307 Madina Heights, Lahore, Pakistan</p>
                                                                 </div>
                                                             </li>
                                                             <li>

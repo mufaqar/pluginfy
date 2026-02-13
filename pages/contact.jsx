@@ -39,7 +39,7 @@ export default function Contact() {
                                         </form>
                                     </div>
                                     <div id="contact-map">
-                                        <iframe src="https://maps.app.goo.gl/KDSprsKvi5o7h3Gf9" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                        <iframe src="https://www.google.com/maps/dir//Maulana+Shaukat+Ali+Rd,+Lahore,+Pakistan/@31.4826186,74.2974482,10z/data=!4m8!4m7!1m0!1m5!1m1!1s0x391906aa17d13639:0x8195e498b38efc0c!2m2!1d74.2974482!2d31.4826186?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                     </div>
                                     <div className="inner-contact-info">
                                         <ul className="list-wrap">

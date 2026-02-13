@@ -6,6 +6,7 @@ import Consultation1 from "@/components/sections/Consultation1"
 import Newsletter1 from "@/components/sections/Newsletter1"
 import Project1 from "@/components/sections/Project1"
 import Services1 from "@/components/sections/Services1"
+import Slider1 from "@/components/sections/Slider1"
 import Team1 from "@/components/sections/Team1"
 import Testimonial1 from "@/components/sections/Testimonial1"
 export default function Home1() {
@@ -13,7 +14,7 @@ export default function Home1() {
     return (
         <>
             <Layout>
-                <Banner1 />
+                <Slider1 />
                 <Services1 />
                 <About1 />
                 <Team1 />

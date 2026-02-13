@@ -25,19 +25,19 @@ export default function Header({ scroll, headercls }) {
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
                                                 <li className="active menu-item-has-children"><Link href="/#">Home</Link>
-                                                    <ul className="sub-menu">
+                                                    {/* <ul className="sub-menu">
                                                         <li className="active"><Link href="/">Creative Agency</Link></li>
                                                         <li><Link href="/index-2">Personal Portfolio</Link></li>
                                                         <li><Link href="/index-3">Digital Agency</Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </li>
                                                 <li><Link href="/about-us">About Us</Link></li>
                                                 <li className="menu-item-has-children"><Link href="/#">pages</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/about-me">About Me</Link></li>
-                                                        <li><Link href="/team">Team Page</Link></li>
-                                                        <li><Link href="/team-details">Team Details</Link></li>
-                                                        <li><Link href="/project-details">Portfolio Details</Link></li>
+                                                        {/* <li><Link href="/about-me">About Me</Link></li> */}
+                                                        <li><Link href="/team">Team</Link></li>
+                                                        {/* <li><Link href="/team-details">Team Details</Link></li> */}
+                                                        <li><Link href="/project">Project</Link></li>
                                                         <li><Link href="/services-details">Services Details</Link></li>
                                                         <li><Link href="/contact">Contact Us</Link></li>
                                                     </ul>

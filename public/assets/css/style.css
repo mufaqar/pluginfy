@@ -55,7 +55,7 @@
     --tg-body-font-family        : 'Poppins', sans-serif;
     --tg-heading-font-family     : 'Poppins', sans-serif;
     --tg-primary-color           : #F89E52;
-    --tg-secondary-color         : #3482FF;
+    --tg-secondary-color         : #42b8fd;
     --tg-body-font-color         : #666666;
     --tg-heading-font-color      : #0B0B0B;
     --tg-banner-title-color      : #2A2A2A;
@@ -514,7 +514,7 @@ label {
 
 .navbar-wrap>ul>li.active>a,
 .navbar-wrap>ul>li:hover>a {
-    color: var(--tg-primary-color);
+    color: var(--tg-secondary-color);
 }
 
 .navbar-wrap>ul>li.menu-item-has-children>a::after {
@@ -553,11 +553,11 @@ label {
     font-size  : 16px;
     padding    : 19px 33px;
     font-weight: 500;
-    background : var(--tg-primary-color);
+    background : var(--tg-secondary-color);
 }
 
 .header-action .header-btn .btn span {
-    background: var(--tg-secondary-color);
+    background: var( --tg-primary-color);
 }
 
 .navbar-wrap ul li .sub-menu {
@@ -6596,14 +6596,15 @@ label {
 ===============================*/
 .footer-area {
     background: var(--tg-section-background-two);
+    margin-top: 50px;
 }
 
 .logo img {
-    max-width: 126px;
+    max-width: 200px;
 }
 
 .footer-top {
-    padding: 120px 0 80px;
+    padding: 80px 0 80px;
 }
 
 .footer-widget {

@@ -41,8 +41,9 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             </main>
 
             {!footerStyle && < Footer1 />}
-            {footerStyle == 1 ? < Footer1 /> : null}
-            {footerStyle == 2 ? < Footer2 nf3={nf3} /> : null}
+            {footerStyle && < Footer1 /> }
+            {/* {footerStyle == 1 ? < Footer1 /> : null} */}
+            {/* {footerStyle == 2 ? < Footer2 nf3={nf3} /> : null} */}
 
             <BackToTop />
         </>

@@ -11,7 +11,7 @@ export default function Footer1() {
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="footer-widget">
                                         <div className="logo">
-                                            <Link href="/"><img src="/assets/img/logo/w_logo.png" alt="" /></Link>
+                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="" /></Link>
                                         </div>
                                         <div className="footer-social">
                                             <ul className="list-wrap">
@@ -23,7 +23,7 @@ export default function Footer1() {
                                         </div>
                                         <div className="footer-contact">
                                             <span>For Support</span>
-                                            <h2 className="title"><Link href="/tel:0123456789">+92-300-4801494</Link></h2>
+                                            <h2 className="title"><Link href="tel:0123456789">+92-300-4801494</Link></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -35,20 +35,20 @@ export default function Footer1() {
                                                 <li><Link href="/">Home</Link></li>
                                                 <li><Link href="/about-us">About</Link></li>
                                                 <li><Link href="/contact">Contact</Link></li>
-                                                <li><Link href="/services-details">Service</Link></li>
+                                                <li><Link href="/blog">Blog</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="footer-widget">
-                                        <h4 className="fw-title">Pages</h4>
+                                        <h4 className="fw-title">Services</h4>
                                         <div className="fw-link">
                                             <ul className="list-wrap">
-                                                <li><Link href="/about-us">About</Link></li>
-                                                <li><Link href="/contact">Pricing</Link></li>
-                                                <li><Link href="/contact">Contact</Link></li>
-                                                <li><Link href="/contact">Request for Demo</Link></li>
+                                                <li><Link href="/">Plugin & Integration Development</Link></li>
+                                                <li><Link href="/">Web Development & Maintenance</Link></li>
+                                                <li><Link href="/">AI Development & Automation</Link></li>
+                                                <li><Link href="/">Software Development</Link></li>
                                             </ul>
                                         </div>
                                     </div>

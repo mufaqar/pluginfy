@@ -8,7 +8,7 @@ export default function ServiceDetails() {
 
     return (
         <>
-            <Layout breadcrumbTitle="Web Design"breadcrumbCls=" breadcrumb-area-two pt-175">
+            <Layout breadcrumbTitle="We Offer a Wide Variety of IT Services" breadcrumbCls=" breadcrumb-area-two pt-175">
                 {/* services-details-area */}
                 <div className="services-details-area">
                     <div className="container">
@@ -18,7 +18,7 @@ export default function ServiceDetails() {
                                     <img src="/assets/img/images/services_details_img.png" alt="" />
                                 </div>
                                 <div className="services-details-content text-center">
-                                    <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi, congue eget sed vestibulum, ornare cras sed nec.</p>
+                                    <p>We provide a comprehensive range of IT services designed to help businesses thrive in the digital age. From network management and cybersecurity to software development and cloud solutions, our expert team delivers customized technology solutions that enhance productivity, streamline operations, and drive growth. Whatever your IT needs, we have the expertise to keep your systems secure, efficient, and future-ready.</p>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +73,8 @@ export default function ServiceDetails() {
                             <div className="col-xl-7 col-lg-9">
                                 <div className="section-title white-title text-center mb-65">
                                     <span className="sub-title">Our Company</span>
-                                    <h2 className="title">We Create Creative Designs For Every Web Page</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <h2 className="title">We Are Trusted Across 5+ Countries Worldwide</h2>
+                                    <p>Our expertise and commitment to excellence have earned the trust of clients in over five countries. We deliver reliable, innovative IT solutions that help businesses succeed globally, ensuring quality, security, and seamless service no matter where you are.</p>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export default function ServiceDetails() {
                             <div className="col-xl-7 col-lg-8">
                                 <div className="section-title text-center mb-65">
                                     <h2 className="title">We Create Creative Designs For Every Web Page</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <p>We create creative designs for every web page, combining modern aesthetics, user-friendly layouts, and innovative ideas to deliver engaging and high-performing digital experiences that help your brand stand out.</p>
                                 </div>
                             </div>
                         </div>
@@ -137,8 +137,8 @@ export default function ServiceDetails() {
                                             <img src="/assets/img/icon/inner_two_services_icon01.png" alt="" />
                                         </div>
                                         <div className="services-content-five">
-                                            <h2 className="title"><Link href="/services-details">User Interaction <span>Design</span></Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title">App for Virtual Reality <span>Design, Ideas</span></h2>
+                                            <p>A cutting-edge VR app that brings ideas to life through immersive and engaging experiences.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -148,8 +148,8 @@ export default function ServiceDetails() {
                                             <img src="/assets/img/icon/inner_two_services_icon02.png" alt="" />
                                         </div>
                                         <div className="services-content-five">
-                                            <h2 className="title"><Link href="/services-details">Production <span>Design</span></Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title">Mobile Coin View App <span>Development</span></h2>
+                                            <p>Stay updated with live coin prices, trends, and portfolio insights — all in one smart mobile app.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -159,8 +159,8 @@ export default function ServiceDetails() {
                                             <img src="/assets/img/icon/inner_two_services_icon03.png" alt="" />
                                         </div>
                                         <div className="services-content-five">
-                                            <h2 className="title"><Link href="/services-details">Branding <span>Design</span></Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title">Analysis of Security <span>Ideas, Technology</span></h2>
+                                            <p>Advanced security insights designed to detect risks, strengthen systems, and ensure data protection.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,8 +170,8 @@ export default function ServiceDetails() {
                                             <img src="/assets/img/icon/inner_two_services_icon04.png" alt="" />
                                         </div>
                                         <div className="services-content-five">
-                                            <h2 className="title"><Link href="/services-details">Product <span>Design</span></Link></h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2 className="title">Ecommerce Website <span>Design, Ideas</span></h2>
+                                            <p>A powerful online store built for seamless shopping experiences and maximum conversions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +187,7 @@ export default function ServiceDetails() {
                             <div className="col-xl-6">
                                 <div className="section-title text-center mb-65">
                                     <h2 className="title">Case Studies</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <p>Explore our detailed case studies showcasing real-world projects, innovative solutions, and measurable results that highlight our expertise and impact.</p>
                                 </div>
                             </div>
                         </div>
