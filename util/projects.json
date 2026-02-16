@@ -1,0 +1,80 @@
+[
+
+  {
+    "id": 1,
+    "title": "Mobile App Development Process",
+    "author": "John Doe",
+    "date": "Feb 13, 2026",
+    "img": "inner_project01.jpg",
+    "metaTag": "Development",
+    "readingTime": "10 Min",
+    "contentTop": "Mobile apps have already penetrated every sphere of our lives and every imaginable business niche. Naturally, the appeal of mobile apps for its market potential cannot fade away anytime soon.\n\nMany apps fail because of poor planning, weak development strategy, and pre-launch or post-launch mistakes.",
+    "contentBottom": [
+      {
+        "heading": "How It Works",
+        "paragraphs": [
+          "Front-end development focuses on the visual perception of a website including look, load time, and interaction.",
+          "Front-End is a mix of programming and layout that powers the visuals and interactions on the web.",
+          "Talented developers provide turnkey front-end services whether upgrading to modern frameworks like Angular or building from scratch."
+        ]
+      },
+      {
+        "heading": "Process & Results",
+        "paragraphs": [
+          "DevOps transformed development by integrating operations with development.",
+          "Security later became part of the lifecycle through DevSecOps.",
+          "Integrating security with DevOps requires different tools and processes but significantly reduces vulnerabilities."
+        ],
+        "list": [
+          "Improved collaboration",
+          "Reduced security risks",
+          "Faster delivery cycles",
+          "Agile methodology support"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "id": 2,
+    "title": "UI/UX Design",
+    "img": "inner_project02.jpg",
+    "description": "Lorem Ipsum is simply",
+    "link": "/project-details",
+    "col": "col-lg-4 col-md-6"
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "img": "inner_project03.jpg",
+    "description": "Lorem Ipsum is simply",
+    "link": "/project-details",
+    "col": "col-lg-4 col-md-6"
+  },
+  {
+    "id": 4,
+    "title": "Mobile App Design",
+    "img": "inner_project04.jpg",
+    "description": "Lorem Ipsum is simply",
+    "link": "/project-details",
+    "col": "col-lg-8 col-md-6"
+  },
+  {
+    "id": 5,
+    "title": "Brand Identity",
+    "img": "inner_project05.jpg",
+    "description": "Lorem Ipsum is simply",
+    "link": "/project-details",
+    "col": "col-lg-4 col-md-6"
+  },
+  {
+    "id": 6,
+    "title": "Illustration",
+    "img": "inner_project06.jpg",
+    "description": "Lorem Ipsum is simply",
+    "link": "/project-details",
+    "col": "col-lg-6 col-md-6"
+  }
+
+]

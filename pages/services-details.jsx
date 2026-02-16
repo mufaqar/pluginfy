@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout"
 import dynamic from 'next/dynamic'
 import Link from "next/link"
+import ProjectDetails from "./projects/[id]"
 const CounterUp = dynamic(() => import('@/components/elements/CounterUp'), {
     ssr: false,
 })
@@ -182,7 +183,7 @@ export default function ServiceDetails() {
                 {/* services-area-end */}
                 {/* project-area */}
                 <section className="inner-project-area">
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-6">
                                 <div className="section-title text-center mb-65">
@@ -275,7 +276,8 @@ export default function ServiceDetails() {
                                 <Link href="/about-me" className="btn">Load More <span /></Link>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <ProjectDetails />
                 </section>
                 {/* project-area-end */}
                 {/* newsletter-area */}
