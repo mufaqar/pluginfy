@@ -24,30 +24,18 @@ export default function Header({ scroll, headercls }) {
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
                                             <ul className="navigation">
-                                                <li className="active menu-item-has-children"><Link href="/#">Home</Link>
-                                                    {/* <ul className="sub-menu">
+                                                {/* <li className="active menu-item-has-children"><Link href="/#">Home</Link>
+                                                    <ul className="sub-menu">
                                                         <li className="active"><Link href="/">Creative Agency</Link></li>
                                                         <li><Link href="/index-2">Personal Portfolio</Link></li>
                                                         <li><Link href="/index-3">Digital Agency</Link></li>
-                                                    </ul> */}
-                                                </li>
-                                                <li><Link href="/about-us">About Us</Link></li>
-                                                <li className="menu-item-has-children"><Link href="/#">pages</Link>
-                                                    <ul className="sub-menu">
-                                                        {/* <li><Link href="/about-me">About Me</Link></li> */}
-                                                        <li><Link href="/team">Team</Link></li>
-                                                        {/* <li><Link href="/team-details">Team Details</Link></li> */}
-                                                        <li><Link href="/project">Project</Link></li>
-                                                        <li><Link href="/services-details">Services Details</Link></li>
-                                                        <li><Link href="/contact">Contact Us</Link></li>
                                                     </ul>
-                                                </li>
-                                                <li className="menu-item-has-children"><Link href="/#">News</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/blog">Our Blog</Link></li>
-                                                        <li><Link href="/blog-details">Blog Details</Link></li>
-                                                    </ul>
-                                                </li>
+                                                </li> */}
+                                                <li><Link href="/#">Home</Link></li>
+                                                <li><Link href="/about-us">About</Link></li>
+                                                <li><Link href="/services-details">Services</Link></li>
+                                                <li><Link href="/project">Project</Link></li>
+                                                <li><Link href="/blog">Blog</Link></li>
                                             </ul>
                                         </div>
                                         <div className="header-action">

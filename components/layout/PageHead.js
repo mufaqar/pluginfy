@@ -5,7 +5,7 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Xolio - Creative Agency HTML5 Template"}
+                    {headTitle ? headTitle : "Pluginey - Creative Agency HTML5 Template"}
                 </title>
             </Head>
         </>
