@@ -7,6 +7,7 @@ const CounterUp = dynamic(() => import('@/components/elements/CounterUp'), {
     ssr: false,
 })
 export default function ServiceDetails({ item }) {
+    
 
     return (
         <>
