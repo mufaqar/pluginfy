@@ -1,11 +1,12 @@
 import Layout from "@/components/layout/Layout"
 import dynamic from 'next/dynamic'
-import Link from "next/link"
-import ProjectDetails from "./projects/[id]"
+import Link from "next/link";
+import projects from "@/util/projects";
+
 const CounterUp = dynamic(() => import('@/components/elements/CounterUp'), {
     ssr: false,
 })
-export default function ServiceDetails() {
+export default function ServiceDetails({ item }) {
 
     return (
         <>
@@ -183,102 +184,49 @@ export default function ServiceDetails() {
                 {/* services-area-end */}
                 {/* project-area */}
                 <section className="inner-project-area">
-                    {/* <div className="container">
+                    <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-6">
                                 <div className="section-title text-center mb-65">
                                     <h2 className="title">Case Studies</h2>
-                                    <p>Explore our detailed case studies showcasing real-world projects, innovative solutions, and measurable results that highlight our expertise and impact.</p>
+                                    <p>
+                                        Explore our detailed case studies showcasing real-world projects,
+                                        innovative solutions, and measurable results that highlight our expertise and impact.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+
                         <div className="inner-project-item-wrap">
                             <div className="row justify-content-center">
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project01.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project02.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project03.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
+                                {projects.map((item) => (
+                                    <div className="col-lg-4 col-md-6" key={item.id}>
+                                        <div className="inner-project-item">
+                                            <div className="inner-project-thumb">
+                                                <Link href={`/projects/${item.id}`}>
+                                                    <img
+                                                        src={`/assets/img/project/${item.img}`}
+                                                        alt={item.title}
+                                                    />
+                                                </Link>
+                                            </div>
+
+                                            <div className="inner-project-content">
+                                                <h3 className="title">
+                                                    <Link href={`/projects/${item.id}`}>
+                                                        {item.title}
+                                                    </Link>
+                                                </h3>
+                                                <p>{item.des}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-8 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project04.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project05.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project06.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="inner-project-item">
-                                        <div className="inner-project-thumb">
-                                            <Link href="/project-details"><img src="/assets/img/project/inner_project07.jpg" alt="" /></Link>
-                                        </div>
-                                        <div className="inner-project-content">
-                                            <h3 className="title"><Link href="/project-details">Motion Design</Link></h3>
-                                            <p>Lorem Ipsum is simply</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="more-btn text-center mt-45">
-                                <Link href="/about-me" className="btn">Load More <span /></Link>
+                                ))}
                             </div>
                         </div>
-                    </div> */}
-                    <ProjectDetails />
+                    </div>
                 </section>
+
                 {/* project-area-end */}
                 {/* newsletter-area */}
                 <section className="newsletter-area pt-110 pb-120">

@@ -4246,12 +4246,14 @@ label {
     border-radius: 20px;
     overflow     : hidden;
     display      : block;
+    
 }
 
 .inner-project-item .inner-project-thumb img {
     transform : scale(1);
     transition: .3s;
     width     : 100%;
+    height    : 350px;
 }
 
 .inner-project-item:hover .inner-project-thumb img {
@@ -6949,3 +6951,8 @@ label {
 .slider-drag .swiper-slide {
     cursor: none;
 }
+
+
+
+
+

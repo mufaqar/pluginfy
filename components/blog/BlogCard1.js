@@ -10,7 +10,7 @@ export default function BlogCard1({ item }) {
                 <div className="inner-blog-content">
                     <div className="blog-meta-two">
                         <ul className="list-wrap">
-                            <li className="tag"><Link href={`/blog/${item.id}`}>Sector</Link></li>
+                            <li className="tag"><Link href={`/blog/${item.title}`}>Sector</Link></li>
                             <li><i className="fal fa-clock" />5 Min</li>
                             <li><i className="fal fa-calendar" />{item.date}</li>
                             <li>By <Link href={`/blog/${item.id}`}>{item.author}</Link></li>
