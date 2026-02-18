@@ -2,15 +2,22 @@ import Layout from "@/components/layout/Layout"
 import dynamic from 'next/dynamic'
 import Link from "next/link";
 import projects from "@/util/projects";
+import SEO from "@/components/SEO";
 
 const CounterUp = dynamic(() => import('@/components/elements/CounterUp'), {
     ssr: false,
 })
 export default function ServiceDetails({ item }) {
-    
+
 
     return (
         <>
+            <SEO
+                title="Comprehensive IT Services Company | Software, Cloud & Support Solutions"
+                description="Explore our full range of IT services including software development, cloud solutions, cybersecurity, and IT consulting tailored to your business needs."
+                keywords="custom software development, IT services company , technical support services"
+                url="https://pluginfy/services-details"
+            />
             <Layout breadcrumbTitle="We Offer a Wide Variety of IT Services" breadcrumbCls=" breadcrumb-area-two pt-175">
                 {/* services-details-area */}
                 <div className="services-details-area">
@@ -111,7 +118,7 @@ export default function ServiceDetails({ item }) {
                                             </li>
                                         </ul>
                                     </div>
-                                    <Link href="/about-me" className="btn">Discover More <span /></Link>
+                                    <Link href="/about-us" className="btn">Discover More <span /></Link>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +190,7 @@ export default function ServiceDetails({ item }) {
                     </div>
                 </section>
                 {/* services-area-end */}
-                {/* project-area */}
+                {/* project-area, Case Studies */}
                 <section className="inner-project-area">
                     <div className="container">
                         <div className="row justify-content-center">

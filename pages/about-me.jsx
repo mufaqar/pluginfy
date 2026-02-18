@@ -1,6 +1,5 @@
 import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
-import SEO from "@/components/SEO"
 import Link from "next/link"
 import { useState } from "react"
 import { Autoplay } from "swiper/modules"
@@ -73,13 +72,6 @@ export default function AboutMe() {
 
     return (
         <>
-          <SEO
-        title="About Us"
-        description="Learn more about our web development and digital services."
-        keywords="web development, SEO services, digital agency"
-        url="https://yourdomain.com/about-us"
-        image="https://yourdomain.com/og-image.jpg"
-      />
             <Layout breadcrumbTitle="About Me" breadcrumbCls="about-me-breadcrumb pt-175 pb-110">
                 <section className="developr-area pb-120">
                     <div className="container">
@@ -187,7 +179,7 @@ export default function AboutMe() {
                                             <div className="developer-info-wrap">
                                                 <div className="row">
                                                     <div className="col-md-6">
-                                                  <ul className="list-wrap">
+                                                        <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon01.png" alt="" />
@@ -218,7 +210,7 @@ export default function AboutMe() {
                                                         </ul>
                                                     </div>
                                                     <div className="col-md-6">
-                                                    <ul className="list-wrap">
+                                                        <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon04.png" alt="" />
@@ -255,7 +247,7 @@ export default function AboutMe() {
                                             <div className="developer-info-wrap">
                                                 <div className="row">
                                                     <div className="col-md-6">
-                                                     <ul className="list-wrap">
+                                                        <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon01.png" alt="" />
@@ -286,7 +278,7 @@ export default function AboutMe() {
                                                         </ul>
                                                     </div>
                                                     <div className="col-md-6">
-                                                      <ul className="list-wrap">
+                                                        <ul className="list-wrap">
                                                             <li>
                                                                 <div className="icon">
                                                                     <img src="/assets/img/icon/developer_icon04.png" alt="" />

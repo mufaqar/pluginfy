@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+import SEO from "@/components/SEO"
 import dynamic from 'next/dynamic'
 import Link from "next/link"
 import { Autoplay, Navigation } from "swiper/modules"
@@ -56,6 +57,14 @@ export default function AboutUs() {
 
     return (
         <>
+
+            <SEO
+                title="Your Partner for Software Innovation & Digital Growth"
+                description="We deliver custom software development, web and mobile apps, and scalable digital solutions to help businesses innovate, grow, and stay competitive."
+                keywords="software development company, custom software solutions"
+                url="https://pluginfy/about-us"
+            />
+
             <Layout breadcrumbTitle="About Us" breadcrumbCls="pt-175 pb-140">
                 <section className="counter-area-three">
                     <div className="container">
@@ -115,7 +124,7 @@ export default function AboutUs() {
                                     <div className="section-title title-style-two mb-30">
                                         <h2 className="title">Your Partner for Software Innovation</h2>
                                     </div>
-                                    <p>We are a rapidly expanding firm in the software sector. Our partners’ difficult websites, 
+                                    <p>We are a rapidly expanding firm in the software sector. Our partners’ difficult websites,
                                         mobile apps, and modules or plugins allow us to step outside of our comfort zone and reconsider our strategy and methods for software design, development, and delivery.</p>
                                     <img src="/assets/img/images/sine.png" alt="" />
                                     <div className="content-bottom">
@@ -477,8 +486,8 @@ export default function AboutUs() {
                             <div className="col-xl-6 col-lg-8">
                                 <div className="section-title white-title text-center mb-45">
                                     <span className="sub-title">Our Company</span>
-                                    <h2 className="title">Company History</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <h2 className="title">Our Proven Path to Software Success</h2>
+                                    <p>We follow a structured, results-driven approach that transforms ideas into powerful, scalable software solutions. From strategy and design to development and deployment, our proven process ensures quality, efficiency, and measurable success at every stage.</p>
                                 </div>
                             </div>
                         </div>
@@ -489,13 +498,12 @@ export default function AboutUs() {
                             <div className="row g-0 justify-content-end">
                                 <div className="col-lg-6">
                                     <div className="history-content">
-                                        <h2 className="title">The Intention was to Establish The Company</h2>
-                                        <p>Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet.
-                                            Ac scelerisque nibh dolores consectetuer, nulla aptent est pede. Scelerisque euismod varius mi,</p>
+                                        <h2 className="title">Discover & Strategize</h2>
+                                        <p>We dive deep into your business goals, target audience, and technical requirements to build a comprehensive project roadmap.</p>
                                         <ul className="list-wrap">
-                                            <li><i className="far fa-check" />Everyone can design at low cost</li>
-                                            <li><i className="far fa-check" />Designing in a different way</li>
-                                            <li><i className="far fa-check" />Our designs sill be world wide best designs</li>
+                                            <li><i className="far fa-check" />Understand Your Goals – Identify business needs and define clear objectives.</li>
+                                            <li><i className="far fa-check" />Research & Analysis – Study market trends, competitors, and user requirements.</li>
+                                            <li><i className="far fa-check" />Plan the Roadmap – Outline a strategic plan with milestones and deliverables.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -570,9 +578,9 @@ export default function AboutUs() {
                                                     <img src="/assets/img/images/testimonial_avatar01.png" alt="" />
                                                 </div>
                                                 <div className="testimonial-content-three">
-                                                   <h4 className="title">Loyalista </h4>
+                                                    <h4 className="title">Loyalista </h4>
                                                     <span>CEO of Company</span>
-                                               <p>“ Very well thought out and articulate communication. Clear milestones, deadlines and fast work. Patience. Infinite patience. No shortcuts. Even if the client is being careless. The best part...always solving problems with great original ideas!.“</p>
+                                                    <p>“ Very well thought out and articulate communication. Clear milestones, deadlines and fast work. Patience. Infinite patience. No shortcuts. Even if the client is being careless. The best part...always solving problems with great original ideas!.“</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -584,7 +592,7 @@ export default function AboutUs() {
                                                 <div className="testimonial-content-three">
                                                     <h4 className="title">Dedicate-Kitechen</h4>
                                                     <span>Developer</span>
-                                                 <p>“ We had some fun at work together after defining a clear course, and I believe it kept us encouraged.“</p>
+                                                    <p>“ We had some fun at work together after defining a clear course, and I believe it kept us encouraged.“</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -594,9 +602,9 @@ export default function AboutUs() {
                                                     <img src="/assets/img/images/testimonial_avatar03.png" alt="" />
                                                 </div>
                                                 <div className="testimonial-content-three">
-                                                     <h4 className="title">Members-one</h4>
+                                                    <h4 className="title">Members-one</h4>
                                                     <span>Director of Company</span>
-                                                 <p>The developer for Pluginfy Technologies operated largely autonomously. The web application functions as intended, and the code is written in accordance with best practices. With a team that was extremely motivated, they took the project seriously. “</p>
+                                                    <p>The developer for Pluginfy Technologies operated largely autonomously. The web application functions as intended, and the code is written in accordance with best practices. With a team that was extremely motivated, they took the project seriously. “</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -608,7 +616,7 @@ export default function AboutUs() {
                                                 <div className="testimonial-content-three">
                                                     <h4 className="title">SWAPZ</h4>
                                                     <span>Project Manager</span>
-                                                  <p>The team at Pluginfy Technologies assisted the client in scaling up. They work diligently and are adaptable and effective. They could be more straightforward, but they have a highly skilled and adaptable crew.“</p>
+                                                    <p>The team at Pluginfy Technologies assisted the client in scaling up. They work diligently and are adaptable and effective. They could be more straightforward, but they have a highly skilled and adaptable crew.“</p>
                                                 </div>
                                             </div>
                                         </SwiperSlide>

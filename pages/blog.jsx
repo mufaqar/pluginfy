@@ -1,10 +1,17 @@
 import BlogPost from "@/components/blog/BlogPost"
 import Layout from "@/components/layout/Layout"
+import SEO from "@/components/SEO"
 import Link from "next/link"
 export default function Blog() {
 
     return (
         <>
+            <SEO
+                title="Tech Blog | IT Insights, Software Trends & Digital Innovation"
+                description="Explore expert insights on software development, web design, cloud computing, cybersecurity, and the latest digital transformation trends."
+                keywords="technology blog,digital transformation insights , IT services blog"
+                url="https://pluginfy/blog"
+            />
             <Layout footerStyle={2} breadcrumbTitle="Blog" breadcrumbCls=" breadcrumb-area-three parallax pt-175 pb-120" blogSearch>
                 <section className="inner-blog-area pb-120">
                     <div className="container">

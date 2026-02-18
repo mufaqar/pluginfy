@@ -7,7 +7,7 @@ export default function SEO({
   image,
   url,
 }) {
-  const siteName = "Your Brand";
+  const siteName = "Pluginfy";
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
 
   return (

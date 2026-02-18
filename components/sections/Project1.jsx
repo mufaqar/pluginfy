@@ -63,7 +63,7 @@ export default function Project1() {
                                 </div>
                                 <p>We’ve been harnessing our extensive knowledge to drive exceptional projects. Explore our completed ventures to see the breadth of our services, industries, and expertise. Discover the clients we’ve partnered with, the innovative work we’ve delivered, and the tailored solutions that have fueled their growth. </p>
                                 <div className="content-bottom">
-                                    <Link href="/about-me" className="btn">View All Project <span /></Link>
+                                    <Link href="/about-us" className="btn">View All Project <span /></Link>
                                     <div className="project-nav">
                                         <button className="swiper-button-prev" />
                                         <button className="swiper-button-next" />

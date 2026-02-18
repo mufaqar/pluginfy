@@ -1,9 +1,16 @@
 import Layout from "@/components/layout/Layout"
+import SEO from "@/components/SEO"
 import Link from "next/link"
 export default function Contact() {
 
     return (
         <>
+            <SEO
+                title="Start Your Project with a Leading Software Development Company"
+                description="Looking for a reliable software development company? Get in touch with our expert team to discuss your project, explore innovative solutions, and turn your ideas into reality."
+                keywords="digital solutions company, custom software development , digital transformation services"
+                url="https://pluginfy"
+            />
             <Layout breadcrumbTitle="Contact Us" footerStyle={2} bShape breadcrumbCls="breadcrumb-area-four pt-175 pb-160">
                 <section className="inner-contact-area">
                     <div className="container">
