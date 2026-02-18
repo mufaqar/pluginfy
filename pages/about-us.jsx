@@ -326,7 +326,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon01.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Plugin & Integration Development</Link></h2>
+                                            <h2 className="title">Plugin & Integration Development</h2>
                                             <p>Seamless plugins, integrations, and custom tools to enhance your platform’s capabilities.</p>
                                         </div>
                                     </div>
@@ -337,7 +337,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon02.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Development</Link></h2>
+                                            <h2 className="title">Development</h2>
                                             <p>Enable customers to access applications while on the go and provide value right at their fingertips.</p>
                                         </div>
                                     </div>
@@ -348,7 +348,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon03.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Software Development</Link></h2>
+                                            <h2 className="title">Software Development</h2>
                                             <p>Custom-built software solutions designed to streamline operations and boost efficiency.</p>
                                         </div>
                                     </div>
@@ -359,7 +359,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon04.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">E-Commerce Platform Customization</Link></h2>
+                                            <h2 className="title">E-Commerce Platform Customization</h2>
                                             <p>Tailor-made online stores that convert visitors into loyal customers.</p>
                                         </div>
                                     </div>
@@ -370,7 +370,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon05.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">UI/UX Design</Link></h2>
+                                            <h2 className="title">UI/UX Design</h2>
                                             <p>Engaging, user-friendly designs that combine aesthetics, performance, and accessibility.</p>
                                         </div>
                                     </div>
@@ -381,7 +381,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon06.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Web Development & Maintenance</Link></h2>
+                                            <h2 className="title">Web Development & Maintenance</h2>
                                             <p>Beautiful, responsive, and reliable websites built for performance and scalability.</p>
                                         </div>
                                     </div>
@@ -392,7 +392,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon07.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">AI Development & Automation</Link></h2>
+                                            <h2 className="title">AI Development & Automation</h2>
                                             <p>Transform ideas into intelligent, automated business solutions that drive growth.</p>
                                         </div>
                                     </div>
@@ -403,7 +403,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/icon/inner_services_icon08.png" alt="" />
                                         </div>
                                         <div className="services-content-four">
-                                            <h2 className="title"><Link href="/services-details">Data Analytics</Link></h2>
+                                            <h2 className="title">Data Analytics</h2>
                                             <p>Get outcomes that are significant and provide our clients the most value and crucial business advantages.</p>
                                         </div>
                                     </div>
