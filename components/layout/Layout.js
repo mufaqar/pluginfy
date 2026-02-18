@@ -5,7 +5,7 @@ import Breadcrumb from './Breadcrumb'
 import Footer1 from './Footer1'
 import Footer2 from "./Footer2"
 import Header from './Header'
-import PageHead from './PageHead'
+
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, headercls, nf3, bShape, breadcrumbCls, blogSearch }) {
     const [scroll, setScroll] = useState(0)
@@ -27,7 +27,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
     return (
         <>
-            <PageHead headTitle={headTitle} />
+           
 
             <MouseCursor />
 
