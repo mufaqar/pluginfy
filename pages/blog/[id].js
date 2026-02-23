@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout";
 import data from "../../util/blog.json";
 import { useRouter } from "next/router";

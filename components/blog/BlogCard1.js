@@ -16,7 +16,7 @@ export default function BlogCard1({ item }) {
                             <li>By <Link href={`/blog/${item.id}`}>{item.author}</Link></li>
                         </ul>
                     </div>
-                    <h2 className="title"><Link href={`/blog/${item.id}`}>{item.title}</Link></h2>
+                    <h2 className="title-blog"><Link href={`/blog/${item.id}`}>{item.title}</Link></h2>
                     <p>{item.des}</p>
                     <Link href="/blog-details" className="rade-more-btn">Read More</Link>
                 </div>

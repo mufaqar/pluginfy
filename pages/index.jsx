@@ -28,7 +28,7 @@ export default function Home1() {
         <Testimonial1 />
         <Consultation1 />
         <Blog1 />
-        <Newsletter1 />
+        {/* <Newsletter1 /> */}
       </Layout>
     </>
   );

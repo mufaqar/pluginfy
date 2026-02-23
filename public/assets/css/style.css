@@ -142,8 +142,11 @@ body {
 img,
 .img {
     max-width : 100%;
-    transition: all 0.3s ease-out 0s;
-    
+    transition: all 0.3s ease-out 0s;   
+}
+
+.home-banner-img {
+    max-width : 80%;
 }
 
 .f-left {
@@ -1003,6 +1006,9 @@ label {
     opacity   : 1;
     visibility: visible;
 }
+.title-blog :hover {
+    color:black;
+}
 
 .header-contact-wrap .customer-support-wrap>.title,
 .header-contact-wrap .left-side-content>.title {
@@ -1681,7 +1687,7 @@ label {
 }
 
 .banner-img-two {
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 .banner-content-two .sub-title {

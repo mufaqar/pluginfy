@@ -8,7 +8,7 @@ export default function Banner2() {
                     <div className="row align-items-center">
                         <div className="col-xl-6 col-lg-5">
                             <div className="banner-img-two">
-                                <img src="/assets/img/banner/banner_img.png" alt="" />
+                                <img src="/assets/img/banner/banner_img.png" alt="" className='home-banner-img' />
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7">
