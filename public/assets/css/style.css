@@ -1218,7 +1218,7 @@ label {
 .breadcrumb-area {
     position: relative;
     background-color: #000000;
-    padding-bottom: 80px;
+    padding: 70px 0 70px;
 }
 
 .breadcrumb-content {
@@ -6661,7 +6661,7 @@ label {
 }
 
 .footer-top {
-    padding: 80px 0 80px;
+    padding: 60px 0 20px;
 }
 
 .footer-widget {

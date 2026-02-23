@@ -27,14 +27,14 @@ export default function ServiceDetails({ item }) {
                 {/* services-details-area */}
                <section className="inner-services-area pt-110 pb-100">
                     <div className="container">
-                        <div className="row justify-content-center">
+                        {/* <div className="row justify-content-center">
                             <div className="col-lg-6">
                                 <div className="section-title title-style-two text-center mb-60">
                                     <span className="sub-title">Graphic Service</span>
                                     <h2 className="title">Creative  Branding Design</h2>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="inner-services-item-wrap">
                             <div className="row justify-content-center">
                                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
@@ -130,44 +130,6 @@ export default function ServiceDetails({ item }) {
                     </div>
                 </section>
                 {/* services-details-area-end */}
-                {/* counter-area */}
-                <section className="counter-area-four pt-100 pb-120">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-12">
-                                <div className="counter-item-wrap-four">
-                                    <ul className="list-wrap">
-                                        <li>
-                                            <div className="counter-item-four">
-                                                <h2 className="count"><CounterUp className="odometer" count={15} />K+</h2>
-                                                <p>Entries in <span>Accunting</span></p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="counter-item-four">
-                                                <h2 className="count"><CounterUp className="odometer" count={120} />+</h2>
-                                                <p>International <span>Programs</span></p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="counter-item-four">
-                                                <h2 className="count"><CounterUp className="odometer" count={46} />+</h2>
-                                                <p>Countries in<span>The World</span></p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="counter-item-four">
-                                                <h2 className="count"><CounterUp className="odometer" count={17} />+</h2>
-                                                <p>Awards <span>Programs</span></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* counter-area-two */}
                 {/* company-area */}
                 <section className="company-area">
                     <div className="container">
