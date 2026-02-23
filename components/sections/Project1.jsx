@@ -58,7 +58,7 @@ export default function Project1() {
                         <div className="col-xl-4">
                             <div className="project-content">
                                 <div className="section-title white-title mb-30">
-                                    <span className="sub-title">Our Complete Craft</span>
+                                    <span className="sub-title1">Our Complete Craft</span>
                                     <h2 className="title">Our Proud Projects</h2>
                                 </div>
                                 <p>We’ve been harnessing our extensive knowledge to drive exceptional projects. Explore our completed ventures to see the breadth of our services, industries, and expertise. Discover the clients we’ve partnered with, the innovative work we’ve delivered, and the tailored solutions that have fueled their growth. </p>

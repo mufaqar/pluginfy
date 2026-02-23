@@ -187,7 +187,7 @@ export default function AboutUs() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide>
+                            {/* <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
                                         <Link href="/team-details"><img src="/assets/img/team/talib.png" alt="" /></Link>
@@ -205,7 +205,7 @@ export default function AboutUs() {
                                         </div>
                                     </div>
                                 </div>
-                            </SwiperSlide>
+                            </SwiperSlide> */}
                             <SwiperSlide>
                                 <div className="team-item">
                                     <div className="team-thumb">
@@ -308,7 +308,7 @@ export default function AboutUs() {
                 </section>
                 {/* consultation-area-end */}
                 {/* services-area */}
-                <section className="inner-services-area pt-110 pb-100">
+                {/* <section className="inner-services-area pt-110 pb-100">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
@@ -411,7 +411,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* services-area-end */}
                 {/* success-area */}
                 <section className="success-area pb-120">
@@ -485,7 +485,7 @@ export default function AboutUs() {
                         <div className="row justify-content-center">
                             <div className="col-xl-6 col-lg-8">
                                 <div className="section-title white-title text-center mb-45">
-                                    <span className="sub-title">Our Company</span>
+                                    <span className="sub-title1">Our Company</span>
                                     <h2 className="title">Our Proven Path to Software Success</h2>
                                     <p>We follow a structured, results-driven approach that transforms ideas into powerful, scalable software solutions. From strategy and design to development and deployment, our proven process ensures quality, efficiency, and measurable success at every stage.</p>
                                 </div>

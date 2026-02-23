@@ -76,7 +76,7 @@ export default function ProjectDetails() {
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9">
                                 <div className="section-title white-title text-center mb-65">
-                                    <span className="sub-title">Our Company</span>
+                                    <span className="sub-title1">Our Company</span>
                                     <h2 className="title">We Create Creative Designs For Every Web Page</h2>
                                     <p>We design creative and visually stunning web pages that enhance user experience and strengthen your brand identity.</p>
                                 </div>

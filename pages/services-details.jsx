@@ -82,7 +82,7 @@ export default function ServiceDetails({ item }) {
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9">
                                 <div className="section-title white-title text-center mb-65">
-                                    <span className="sub-title">Our Company</span>
+                                    <span className="sub-title1">Our Company</span>
                                     <h2 className="title">We Are Trusted Across 5+ Countries Worldwide</h2>
                                     <p>Our expertise and commitment to excellence have earned the trust of clients in over five countries. We deliver reliable, innovative IT solutions that help businesses succeed globally, ensuring quality, security, and seamless service no matter where you are.</p>
                                 </div>

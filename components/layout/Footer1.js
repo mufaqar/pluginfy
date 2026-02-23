@@ -68,7 +68,7 @@ export default function Footer1() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="footer-bottom">
+                    <div className="footer-bottom">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-6">
@@ -83,7 +83,7 @@ export default function Footer1() {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </footer>
 

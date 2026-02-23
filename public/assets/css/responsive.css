@@ -74,7 +74,7 @@
 	font-size: 45px;
 }
 .about-inner {
-	padding: 115px 90px 120px 90px;
+	padding: 80px 80px 80px 80px;
 }
 .about-content > p {
     width: 78%;
@@ -139,8 +139,9 @@
 	right: 12.3%;
 }
 .banner-area-two {
-	padding: 130px 0 120px;
+	padding: 80px 0 80px;
 	position: relative;
+	background-color: black;
 }
 .about-content-two p {
 	margin-bottom: 50px;
@@ -1025,7 +1026,7 @@
 	width: 70%;
 }
 .banner-area-two {
-	padding: 120px 0 100px;
+	padding: 80px 0 80px;
 }
 .banner-content-two {
 	text-align: center;
