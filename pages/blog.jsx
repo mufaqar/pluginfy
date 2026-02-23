@@ -12,7 +12,12 @@ export default function Blog() {
                 keywords="technology blog,digital transformation insights , IT services blog"
                 url="https://pluginfy/blog"
             />
-            <Layout footerStyle={2} breadcrumbTitle="Blog" breadcrumbCls=" breadcrumb-area-three parallax pt-175 pb-120" blogSearch>
+            <Layout
+                headerStyle={1}
+                footerStyle={1}
+                breadcrumbTitle="Blog"
+                breadcrumbDesc="Read our latest insights, tips, and updates on technology, digital solutions, and industry trends."
+            >
                 <section className="inner-blog-area pb-120">
                     <div className="container">
                         <div className="row justify-content-center">
@@ -162,7 +167,7 @@ export default function Blog() {
                 </section>
                 {/* blog-area-end */}
                 {/* newsletter-area */}
-                <section className="newsletter-area-two">
+                {/* <section className="newsletter-area-two">
                     <div className="container">
                         <div className="newsletter-wrap">
                             <div className="row justify-content-center">
@@ -191,7 +196,7 @@ export default function Blog() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
         </>
     )

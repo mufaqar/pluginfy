@@ -308,7 +308,7 @@
 	padding-top: 105px;
 }
 .pt-110 {
-	padding-top: 80px;
+	padding-top: 60px;
 }
 .pt-115 {
 	padding-top: 115px;
@@ -418,7 +418,7 @@
 	padding-bottom: 85px;
 }
 .pb-90 {
-	padding-bottom: 90px;
+	padding-bottom: 60px;
 }
 .pb-95 {
 	padding-bottom: 50px;
@@ -436,9 +436,10 @@
 	padding-bottom: 115px;
 }
 .pb-120 {
-	padding-bottom: 80px;
-	margin-bottom: 20px;
-	padding-top: 80px;
+	padding-bottom: 30px;
+
+	padding-top: 30px;
+	background-color: rgb(248, 248, 248);
 }
 .pb-125 {
 	padding-bottom: 80px;

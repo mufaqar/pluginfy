@@ -1,11 +1,11 @@
 import Link from "next/link"
 
-export default function Breadcrumb({ breadcrumbTitle, bShape, breadcrumbCls, blogSearch }) {
+export default function Breadcrumb({ breadcrumbTitle, bShape, breadcrumbCls, blogSearch, breadcrumbDesc }) {
     return (
         <>
             <section className={`breadcrumb-area ${breadcrumbCls ? breadcrumbCls : ""}`}>
                 <div className="container">
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-12">
                             <div className="breadcrumb-content">
                                 <h2 className="title">{breadcrumbTitle}</h2>
@@ -17,7 +17,7 @@ export default function Breadcrumb({ breadcrumbTitle, bShape, breadcrumbCls, blo
                                 </nav>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {blogSearch &&
                         <div className="row justify-content-center">
@@ -52,6 +52,17 @@ export default function Breadcrumb({ breadcrumbTitle, bShape, breadcrumbCls, blo
                     </>
                 }
 
+
+
+<div className="breadcrumb-content text-center">
+  <h2 className="title">{breadcrumbTitle}</h2>
+
+  {breadcrumbDesc && (
+    <p className="breadcrumb-desc">
+      {breadcrumbDesc}
+    </p>
+  )}
+</div>
             </section>
 
         </>

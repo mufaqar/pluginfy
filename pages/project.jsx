@@ -15,7 +15,12 @@ export default function ProjectDetails() {
                 keywords="creative web design, responsive web design , website design services"
                 url="https://pluginfy/project"
             />
-            <Layout breadcrumbTitle="Our Proud Projects" breadcrumbCls="breadcrumb-area-two pt-175">
+            <Layout
+                headerStyle={1}
+                footerStyle={1}
+                breadcrumbTitle="Our Projects"
+                breadcrumbDesc="Explore our diverse portfolio of projects, showcasing innovative solutions and successful collaborations across industries."
+            >
                 {/* project-details-area */}
                 <section className="project-details-area pt-40 pb-120">
                     <div className="container">

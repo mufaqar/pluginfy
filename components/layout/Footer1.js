@@ -29,7 +29,7 @@ export default function Footer1() {
                                 </div>
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="footer-widget">
-                                        <h4 className="fw-title">Primary Pages</h4>
+                                        <h4 className="fw-title">Pages</h4>
                                         <div className="fw-link">
                                             <ul className="list-wrap">
                                                 <li><Link href="/">Home</Link></li>

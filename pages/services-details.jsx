@@ -18,25 +18,117 @@ export default function ServiceDetails({ item }) {
                 keywords="custom software development, IT services company , technical support services"
                 url="https://pluginfy/services-details"
             />
-            <Layout breadcrumbTitle="We Offer a Wide Variety of IT Services" breadcrumbCls=" breadcrumb-area-two pt-175">
+            <Layout
+                headerStyle={1}
+                footerStyle={1}
+                breadcrumbTitle="Our Services"
+                breadcrumbDesc="We deliver innovative, scalable, and high-performance digital solutions tailored to help businesses grow and succeed in today’s competitive market."
+            >
                 {/* services-details-area */}
-                <div className="services-details-area">
+               <section className="inner-services-area pt-110 pb-100">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-xl-8 col-lg-10">
-                                <div className="services-details-img text-center">
-                                    <img src="/assets/img/images/services_details_img.png" alt="" />
+                            <div className="col-lg-6">
+                                <div className="section-title title-style-two text-center mb-60">
+                                    <span className="sub-title">Graphic Service</span>
+                                    <h2 className="title">Creative  Branding Design</h2>
                                 </div>
-                                <div className="services-details-content text-center">
-                                    <p>We provide a comprehensive range of IT services designed to help businesses thrive in the digital age. From network management and cybersecurity to software development and cloud solutions, our expert team delivers customized technology solutions that enhance productivity, streamline operations, and drive growth. Whatever your IT needs, we have the expertise to keep your systems secure, efficient, and future-ready.</p>
+                            </div>
+                        </div>
+                        <div className="inner-services-item-wrap">
+                            <div className="row justify-content-center">
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon01.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">Plugin & Integration Development</h2>
+                                            <p>Seamless plugins, integrations, and custom tools to enhance your platform’s capabilities.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon02.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">Development</h2>
+                                            <p>Enable customers to access applications while on the go and provide value right at their fingertips.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon03.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">Software Development</h2>
+                                            <p>Custom-built software solutions designed to streamline operations and boost efficiency.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon04.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">E-Commerce Platform Customization</h2>
+                                            <p>Tailor-made online stores that convert visitors into loyal customers.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon05.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">UI/UX Design</h2>
+                                            <p>Engaging, user-friendly designs that combine aesthetics, performance, and accessibility.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon06.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">Web Development & Maintenance</h2>
+                                            <p>Beautiful, responsive, and reliable websites built for performance and scalability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon07.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">AI Development & Automation</h2>
+                                            <p>Transform ideas into intelligent, automated business solutions that drive growth.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                                    <div className="services-item-four">
+                                        <div className="services-icon-four">
+                                            <img src="/assets/img/icon/inner_services_icon08.png" alt="" />
+                                        </div>
+                                        <div className="services-content-four">
+                                            <h2 className="title">Data Analytics</h2>
+                                            <p>Get outcomes that are significant and provide our clients the most value and crucial business advantages.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="services-details-shape">
-                        <img src="/assets/img/images/services_details_shape.png" alt="" />
-                    </div>
-                </div>
+                </section>
                 {/* services-details-area-end */}
                 {/* counter-area */}
                 <section className="counter-area-four pt-100 pb-120">
@@ -237,7 +329,7 @@ export default function ServiceDetails({ item }) {
 
                 {/* project-area-end */}
                 {/* newsletter-area */}
-                <section className="newsletter-area pt-110 pb-120">
+                {/* <section className="newsletter-area pt-110 pb-120">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
@@ -267,10 +359,10 @@ export default function ServiceDetails({ item }) {
                         <img src="/assets/img/images/newsletter_shape05.png" alt="" className="shape-five" />
                         <img src="/assets/img/images/newsletter_shape06.png" alt="" className="shape-six" />
                     </div>
-                </section>
+                </section> */}
                 {/* newsletter-area-end */}
 
-            </Layout>
+            </Layout >
         </>
     )
 }

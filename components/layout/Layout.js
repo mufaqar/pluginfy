@@ -1,51 +1,68 @@
 import { useEffect, useState } from "react"
-import BackToTop from '../elements/BackToTop'
-import MouseCursor from '../elements/MouseCursor'
-import Breadcrumb from './Breadcrumb'
-import Footer1 from './Footer1'
+import BackToTop from "../elements/BackToTop"
+import MouseCursor from "../elements/MouseCursor"
+import Breadcrumb from "./Breadcrumb"
+import Footer1 from "./Footer1"
 import Footer2 from "./Footer2"
-import Header from './Header'
+import Header from "./Header"
 
+export default function Layout({
+  headerStyle,
+  footerStyle,
+  headTitle,
+  breadcrumbTitle,
+  children,
+  headercls,
+  nf3,
+  bShape,
+  breadcrumbCls,
+  blogSearch,
+  breadcrumbDesc,
+}) {
+  const [scroll, setScroll] = useState(false)
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, headercls, nf3, bShape, breadcrumbCls, blogSearch }) {
-    const [scroll, setScroll] = useState(0)
-    useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
-        window.wow.init()
+  useEffect(() => {
+    const WOW = require("wowjs")
+    window.wow = new WOW.WOW({ live: false })
+    window.wow.init()
 
-        document.addEventListener("scroll", () => {
-            const scrollCheck = window.scrollY > 100
-            if (scrollCheck !== scroll) {
-                setScroll(scrollCheck)
-            }
-        })
-    }, [])
+    const handleScroll = () => {
+      setScroll(window.scrollY > 100)
+    }
 
+    window.addEventListener("scroll", handleScroll)
 
-    return (
-        <>
-           
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
-            <MouseCursor />
+  return (
+    <>
+      <MouseCursor />
 
-            {!headerStyle && <Header scroll={scroll} headercls={headercls} />}
-            {headerStyle == 1 ? <Header scroll={scroll} headercls={headercls} /> : null}
+      {!headerStyle && <Header scroll={scroll} headercls={headercls} />}
+      {headerStyle == 1 ? (
+        <Header scroll={scroll} headercls={headercls} />
+      ) : null}
 
-            <main>
-                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} bShape={bShape} breadcrumbCls={breadcrumbCls} blogSearch={blogSearch}/>}
+      <main>
+        {breadcrumbTitle && (
+          <Breadcrumb
+            breadcrumbTitle={breadcrumbTitle}
+            breadcrumbDesc={breadcrumbDesc}
+            bShape={bShape}
+            breadcrumbCls={breadcrumbCls}
+            blogSearch={blogSearch}
+          />
+        )}
 
-                {children}
-            </main>
+        {children}
+      </main>
 
-            {!footerStyle && < Footer1 />}
-            {footerStyle && < Footer1 /> }
-            {/* {footerStyle == 1 ? < Footer1 /> : null} */}
-            {/* {footerStyle == 2 ? < Footer2 nf3={nf3} /> : null} */}
+      {footerStyle == 2 ? <Footer2 nf3={nf3} /> : <Footer1 />}
 
-            <BackToTop />
-        </>
-    )
+      <BackToTop />
+    </>
+  )
 }

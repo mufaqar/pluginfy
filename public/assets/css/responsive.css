@@ -128,7 +128,7 @@
 	padding: 62px 45px 44px;
 }
 .banner-content-two .title {
-	font-size: 65px;
+	font-size: 52px;
 	margin-bottom: 40px;
 }
 .banner-shape-wrap-two img:nth-child(2) {
@@ -284,7 +284,7 @@
 }
 .breadcrumb-area {
 	position: relative;
-	padding: 150px 0 120px;
+	padding: 60px 0 60px;
 }
 .tools-item {
 	padding: 40px 30px;
@@ -302,10 +302,10 @@
 	left: 45px;
 }
 .breadcrumb-area.about-me-breadcrumb {
-	padding: 150px 0 100px;
+	padding: 60px 0 100px;
 }
 .breadcrumb-area.breadcrumb-area-two {
-	padding: 150px 0 0;
+	padding: 60px 0 60px;
 }
 .bd-content-bottom {
 	width: 82%;
@@ -1956,7 +1956,7 @@
 	margin-bottom: 20px;
 }
 .brand-area-two.pt-110 {
-	padding: 90px 0 0;
+	padding: 60px 0 0;
 }
 .footer-top-two {
 	padding: 90px 0 55px;
