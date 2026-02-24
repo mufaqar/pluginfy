@@ -6529,6 +6529,7 @@ label {
 /* inner-contact */
 .inner-contact-area {
  margin-top:80px;
+ margin-bottom: 50px;
 }
 .inner-contact-area .section-title {
     width: 65%;

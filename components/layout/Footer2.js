@@ -3,37 +3,82 @@ import Link from "next/link"
 export default function Footer2({ nf3 }) {
     return (
         <>
-            <footer>
-                <div className={`footer-area-two ${nf3 ? "" : "footer-area-three"}`}>
-                    <div className="container">
-                        <div className="footer-top-two">
-                            <div className="row justify-content-center">
-                                <div className="col-xl-6 col-lg-8">
-                                    <div className="footer-content-two text-center">
+             <footer>
+                <div className="footer-area">
+                    <div className="footer-top">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="footer-widget">
                                         <div className="logo">
                                             <Link href="/"><img src="/assets/img/logo/logo.png" alt="" /></Link>
                                         </div>
-                                        <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+                                        <div className="footer-social">
+                                            <ul className="list-wrap">
+                                                <li><Link href="https://www.facebook.com/pluginfy"><i className="fab fa-facebook-f" /></Link></li>
+                                                <li className="active"><Link href="https://twitter.com/pluginfy"><i className="fab fa-twitter" /></Link></li>
+                                                <li><Link href="https://www.youtube.com/channel/UCoW1Ip3gM6YjBtluhSCJpBA"><i className="fab fa-youtube" /></Link></li>
+                                                <li><Link href="https://www.linkedin.com/company/pluginfy-technologies"><i className="fab fa-linkedin-in" /></Link></li>
+                                            </ul>
+                                        </div>
+                                        <div className="footer-contact">
+                                            <span>For Support</span>
+                                            <h2 className="title"><Link href="tel:0123456789">+92-300-4801494</Link></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="footer-widget">
+                                        <h4 className="fw-title">Pages</h4>
+                                        <div className="fw-link">
+                                            <ul className="list-wrap">
+                                                <li><Link href="/">Home</Link></li>
+                                                <li><Link href="/about-us">About</Link></li>
+                                                <li><Link href="/contact">Contact</Link></li>
+                                                <li><Link href="/blog">Blog</Link></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="footer-widget">
+                                        <h4 className="fw-title">Services</h4>
+                                        <div className="fw-link">
+                                            <ul className="list-wrap">
+                                                <li><Link href="/">Plugin & Integration Development</Link></li>
+                                                <li><Link href="/">Web Development & Maintenance</Link></li>
+                                                <li><Link href="/">AI Development & Automation</Link></li>
+                                                <li><Link href="/">Software Development</Link></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="footer-widget">
+                                        <h4 className="fw-title">About Store</h4>
+                                        <div className="footer-about">
+                                            <ul className="list-wrap">
+                                                <li><img src="/assets/img/icon/phone_icon.svg" alt="" /><Link href="tel:923004801494">+92-300-4801494</Link></li>
+                                                <li><img src="/assets/img/icon/mail_icon.svg" alt="" /><Link href="mailto:hello@pluginfy.com">hello@pluginfy.com</Link></li>
+                                                <li><img src="/assets/img/icon/loction_icon.svg" alt="" /><span>307 Madina Heights, Lahore, Pakistan</span></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="footer-bottom-two">
+                    </div>
+                    <div className="footer-bottom">
+                        <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-6">
-                                    <div className="copyright-text">
-                                        <p>© {new Date().getFullYear()}, Creative Agency.</p>
+                                    <div className="cart-img">
+                                        <img src="/assets/img/images/cart_img.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="footer-social-two">
-                                        <ul className="list-wrap">
-                                            <li className="title">Follow us</li>
-                                            <li><Link href="#"><img src="/assets/img/icon/footer_icon01.png" alt="" /></Link></li>
-                                            <li><Link href="#"><img src="/assets/img/icon/footer_icon02.png" alt="" /></Link></li>
-                                            <li><Link href="#"><img src="/assets/img/icon/footer_icon03.png" alt="" /></Link></li>
-                                            <li><Link href="#"><img src="/assets/img/icon/footer_icon04.png" alt="" /></Link></li>
-                                        </ul>
+                                    <div className="copyright-text text-end">
+                                        <p>© {new Date().getFullYear()} Copyright | Powered by Plugify</p>
                                     </div>
                                 </div>
                             </div>
@@ -41,6 +86,7 @@ export default function Footer2({ nf3 }) {
                     </div>
                 </div>
             </footer>
+
         </>
     )
 }
